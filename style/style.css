@@ -1,0 +1,101 @@
+@charset "UTF-8";
+nav {
+  margin: 10px;
+}
+
+.item-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.b-item-nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.b2-item-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav img {
+  width: 50px;
+  height: 50px;
+}
+
+.imgredonda {
+  width: 180px;
+  height: 180px;
+  border-radius: 150px;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.fotos-hobbies {
+  width: 75px;
+  height: 75px;
+  border-radius: 150px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.añadir {
+  border-radius: 150px solid black;
+}
+
+.hobbies {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: center;
+}
+
+.sub-icons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.item-sub-icons {
+  width: 30px;
+  height: 30px;
+}
+
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.item-fotos {
+  display: flex;
+  margin: 15px;
+  flex-wrap: wrap;
+  width: calc(35% - 10px);
+}
+.item-fotos img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+  justify-content: center;
+}
+
+.iconos-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 50px;
+}/*# sourceMappingURL=style.css.map */
